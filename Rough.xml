@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" verbose="1">
+
+
+	<test name="Verify the login functiionality">
+		<classes>
+			<class name="com.kmk.TestExecution.Rough"></class>
+		</classes>
+	</test>
+
+	
+</suite>

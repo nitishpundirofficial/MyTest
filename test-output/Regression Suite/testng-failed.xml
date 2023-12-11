@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify the login functiionality(failed)">
+    <classes>
+      <class name="com.kmk.TestExecution.Rough">
+        <methods>
+          <include name="clickToVote"/>
+        </methods>
+      </class> <!-- com.kmk.TestExecution.Rough -->
+    </classes>
+  </test> <!-- Verify the login functiionality(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
